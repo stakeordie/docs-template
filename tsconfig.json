@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "target": "ESNext",
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "types": ["vitepress/client", "vitest"],
+    "esModuleInterop": true
+  },
+  "include": ["docs/**/*", "tests/**/*"],
+  "exclude": ["node_modules"]
+}

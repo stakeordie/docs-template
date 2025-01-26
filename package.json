@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "concurrently \"vitepress dev docs\" \"vitest --watch\"",
+    "docs:build": "vitest run && vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:ui": "vitest --ui",
+    "test:watch": "vitest --watch"
+  },
+  "devDependencies": {
+    "mermaid": "^11.4.1",
+    "vitepress": "2.0.0-alpha.1",
+    "vitepress-plugin-mermaid": "^2.0.17",
+    "vitest": "^1.2.1",
+    "@vitest/ui": "^1.2.1",
+    "concurrently": "^8.2.2",
+    "dayjs": "^1.11.13",
+    "cytoscape": "^3.31.0",
+    "cytoscape-cose-bilkent": "^4.1.0",
+    "@braintree/sanitize-url": "^7.1.1"
+  },
+  "packageManager": "pnpm@10.0.0"
+}
