@@ -4,6 +4,8 @@
 
 ### Git Workflow
 
+<FullscreenDiagram>
+
 ```mermaid
 gitGraph
     commit
@@ -18,6 +20,8 @@ gitGraph
     commit
 ```
 
+</FullscreenDiagram>
+
 ### Entity Relationship
 
 ```mermaid
@@ -28,6 +32,8 @@ erDiagram
 ```
 
 ## Custom Components
+
+
 
 ```vue
 <script setup>
@@ -43,7 +49,10 @@ const count = ref(0)
 </template>
 ```
 
+
 ## Advanced Configuration
+
+<FullscreenDiagram>
 
 ```typescript
 export default defineConfig({
@@ -59,3 +68,5 @@ export default defineConfig({
   }
 })
 ```
+
+</FullscreenDiagram>

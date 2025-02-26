@@ -20,6 +20,8 @@ sequenceDiagram
 
 ### Class Diagram
 
+<FullscreenDiagram>
+
 ```mermaid
 classDiagram
     class Document {
@@ -35,6 +37,7 @@ classDiagram
     }
     Document <|-- Route
 ```
+</FullscreenDiagram>
 
 ## Code Blocks
 

@@ -1,83 +1,53 @@
-# VitePress Documentation Template
+# Documentation Template
 
-A clean, modern documentation template using VitePress with built-in Mermaid support and automatic route validation.
+A modern documentation starter template built with VitePress.
 
 ## Features
 
-- 📊 **Mermaid Diagrams**: Create beautiful diagrams directly in your markdown
-- ✅ **Route Validation**: Automatic testing of navigation links
-- 🔍 **Type Safety**: Full TypeScript support
-- 🚀 **Modern Stack**: Uses pnpm, Vite, and VitePress
-- 📱 **Responsive**: Mobile-friendly documentation
-- 🎨 **Clean Design**: Modern, minimal theme
+- **Markdown-based** - Write content in Markdown
+- **Search** - Full-text search built-in
+- **Diagrams** - Mermaid diagrams with fullscreen support
+- **Customizable** - Easy to customize and extend
+- **Responsive** - Works on all devices
+- **Fast** - Built with Vite for optimal performance
 
-## Quick Start
+## Getting Started
 
-1. Clone this repository:
-   ```bash
-   git clone [your-repo-url]
-   cd vitepress-docs-template
-   ```
+### Prerequisites
 
-2. Install dependencies:
-   ```bash
-   pnpm install
-   ```
+- Node.js 18+
+- pnpm 10+
 
-3. Start the development server:
-   ```bash
-   pnpm docs:dev
-   ```
-
-4. Build for production:
-   ```bash
-   pnpm docs:build
-   ```
-
-## Project Structure
-
-```
-.
-├── docs/
-│   ├── .vitepress/
-│   │   └── config.ts      # VitePress configuration
-│   ├── guide/
-│   │   └── index.md      # Guide documentation
-│   ├── examples/
-│   │   └── index.md      # Examples documentation
-│   └── index.md          # Home page
-├── tests/
-│   └── route-validation.test.ts  # Navigation testing
-├── package.json
-└── tsconfig.json
-```
-
-## Configuration
-
-The template is configured in `docs/.vitepress/config.ts`. Key features include:
-
-- Mermaid diagram support
-- Navigation structure
-- Sidebar configuration
-- TypeScript configuration
-
-## Testing
-
-Run the test suite to validate all documentation routes:
+### Installation
 
 ```bash
-pnpm test
+# Clone the repository
+git clone https://github.com/your-org/docs-template.git
+cd docs-template
+
+# Install dependencies
+pnpm install
+
+# Start the development server
+pnpm docs:dev
 ```
 
-This will ensure all navigation links point to existing files.
+## Building for Production
 
-## Contributing
+```bash
+# Build the documentation site
+pnpm docs:build
 
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a new Pull Request
+# Preview the production build
+pnpm docs:preview
+```
+
+## Customization
+
+- Edit `src/.vitepress/config.ts` to customize site configuration
+- Add your content in Markdown files
+- Customize components in `src/.vitepress/components`
+- Add styles in `src/public/css/styles.css`
 
 ## License
 
