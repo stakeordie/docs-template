@@ -32,7 +32,7 @@ const config = defineConfig({
     startOnLoad: true,
     maxTextSize: 50000,
     flowchart: {
-      useMaxWidth: false,
+      useMaxWidth: true,
       htmlLabels: true
     },
     themeVariables: {
